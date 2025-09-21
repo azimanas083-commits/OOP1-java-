@@ -299,6 +299,7 @@ public class StudentManagementGUI extends JFrame implements ActionListener {
     }
     displayArea.setText(sb.toString());
     resultLabel.setText("Showing all students.");
+	
 } else if (src == searchBtn) {
     // Show one student in a clear list
     String rollNo = searchField.getText().trim();
@@ -325,7 +326,7 @@ public class StudentManagementGUI extends JFrame implements ActionListener {
     searchField.setText("");
     displayArea.setText("");
     resultLabel.setText("Fields cleared.");
-        resultLabel.setText("Fields cleared.");
+     resultLabel.setText("Fields cleared.");
         }
     }
 
